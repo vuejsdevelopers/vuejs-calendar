@@ -60,10 +60,6 @@ var baseConfig = {
   }
 };
 
-if (process.env.NODE_ENV === 'development') {
-
-}
-
 let targets = [ 'web', 'node' ].map((target) => {
   let obj = webpackMerge(baseConfig, {
     target: target,
@@ -105,7 +101,7 @@ let targets = [ 'web', 'node' ].map((target) => {
       : false
   });
   if (process.env.NODE_ENV === 'development' && target === 'web') {
-    module.exports.module.rules[0].use.push({ loader: 'webpack-module-hot-accept' });
+    obj.module.rules[0].use.push({ loader: 'webpack-module-hot-accept' });
   }
   return obj;
 });
