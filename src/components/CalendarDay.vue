@@ -11,12 +11,7 @@
         props: [ 'day' ],
         computed: {
             events() {
-                let mockData = [
-                    { description: 'Random event 1', date: this.$moment('2017-02-06', 'YYYY-MM-DD') },
-                    { description: 'Random event 2', date: this.$moment('2017-02-15', 'YYYY-MM-DD') },
-                    { description: 'Random event 3', date: this.$moment('2017-03-14', 'YYYY-MM-DD') }
-                ];
-                return mockData.filter(event => event.date.isSame(this.day, 'day'));
+                return this.$store.state.events.filter(event => event.date.isSame(this.day, 'day'));
             },
             classObject() {
                 let today = this.day.isSame(this.$moment(), 'day');
