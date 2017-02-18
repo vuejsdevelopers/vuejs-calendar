@@ -31,6 +31,12 @@ export default new Vuex.Store({
     },
     eventFormActive(state, payload) {
       state.eventFormActive = payload;
+    },
+    addEvent(state, payload) {
+      state.events.push({
+        description: payload,
+        date: moment()
+      });
     }
   }
 });
