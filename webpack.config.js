@@ -25,7 +25,7 @@ var baseConfig = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader!sass-loader' })
+        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' })
       },
       {
         test: /\.(png|jpg|gif|svg|ttf)$/,
@@ -48,7 +48,7 @@ var baseConfig = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.js',
+      'vue$': 'vue/dist/vue.common.js',
     }
   },
   devServer: {
