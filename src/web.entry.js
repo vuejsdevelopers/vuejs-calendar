@@ -12,6 +12,4 @@ let events = window.__INITIAL_STATE__.map(event => {
 
 import VueCalendar from './entry';
 
-setTimeout(function() {
-  VueCalendar(events).$mount('#app');
-}, 2000);
+VueCalendar(events).$mount('#app');
