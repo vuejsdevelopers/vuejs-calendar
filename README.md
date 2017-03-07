@@ -1,12 +1,12 @@
 # Ultimate Vue.js Developers Course
 
-Source code for the [Ultimate Vue.js Developers Course](https://www.udemy.com/course/1022582) on Udemy.
+Source code for the [Ultimate Vue.js Developers Course](http://bit.ly/2mPK8ny) on Udemy.
 
 ### Project 3: Vue.js Calendar
 
 #### Demo
 
-See the completed project here: [https://vuejs-calendar.getjsdojo.com/](https://vuejs-calendar.getjsdojo.com/)
+See the completed project here: [http://vuejs-calendar.getjsdojo.com/](http://vuejs-calendar.getjsdojo.com/)
 
 #### Installation
 
