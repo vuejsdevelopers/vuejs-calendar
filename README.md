@@ -6,7 +6,7 @@ Source code for the [Ultimate Vue.js Developers Course](http://bit.ly/2mPK8ny) o
 
 #### Demo
 
-See the completed project here: [http://vuejs-calendar.getjsdojo.com/](http://vuejs-calendar.getjsdojo.com/)
+See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](http://vuejs-calendar.vuejsdevelopers.com/)
 
 #### Installation
 
@@ -14,7 +14,7 @@ See the completed project here: [http://vuejs-calendar.getjsdojo.com/](http://vu
 
     ```
     cd /path/to/install/location
-    git clone git@github.com:getjsdojo/vuejs-calendar.git
+    git clone git@github.com:vuejsdevelopers/vuejs-calendar.git
     ```
 
 2. Install dependencies
