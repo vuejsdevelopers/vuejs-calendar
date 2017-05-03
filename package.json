@@ -1,12 +1,12 @@
 {
   "name": "vue-calendar",
   "version": "1.0.0",
-  "description": "Ultimate Vue.js course",
+  "description": "Ultimate Vue.js Developers Course",
   "main": "server.js",
   "author": "Anthony Gore <info@getjsdojo.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/getjsdojo/vuejs-poster-shop"
+    "url": "https://github.com/vuejsdevelopers/vuejs-calendar"
   },
   "license": "UNLICENSED",
   "scripts": {
