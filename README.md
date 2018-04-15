@@ -1,22 +1,42 @@
 # Ultimate Vue.js Developers Course
 
-Source code for the [Ultimate Vue.js Developers Course](https://www.udemy.com/course/1022582) on Udemy.
+Source code for the [Ultimate Vue.js Developers Course](http://bit.ly/2mPK8ny).
 
 ### Project 3: Vue.js Calendar
 
 #### Demo
 
-See the completed project here: [https://vuejs-calendar.getjsdojo.com/](https://vuejs-calendar.getjsdojo.com/)
+See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](http://vuejs-calendar.vuejsdevelopers.com/)
+
+#### Pre-installation
+
+- Ensure [NPM](https://docs.npmjs.com) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) are installed on your system
 
 #### Installation
 
-1. Clone this repository on your local file system
-
+1. Install this code on your local system
+ 
+    **Option 1 (recommended)**
+    
+    1. Fork this repository (see top right corner)
+    2. Clone the forked repository on your local file system
+    
+        ```
+        cd /path/to/install/location
+        
+        git clone git@github.com:[your_username]/vuejs-calendar.git
+        ```
+    
+    **Option 2 (easier)**
+    
+    This option is better if you're not a Github user or are not sure how to setup SSH keys
+    
     ```
     cd /path/to/install/location
-    git clone git@github.com:getjsdojo/vuejs-calendar.git
-    ```
-
+    
+    git clone https://github.com/vuejsdevelopers/vuejs-calendar.git
+    ```    
+   
 2. Install dependencies
 
     ```
@@ -40,6 +60,6 @@ See the completed project here: [https://vuejs-calendar.getjsdojo.com/](https://
 5. Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
 
 
-#### Udemy lecture branches
+#### Lecture branches
 
 Note that branches in the repo named `lecture/xxx` correspond to course lectures.
