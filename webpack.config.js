@@ -17,7 +17,7 @@ var baseConfig = {
         use: [{
           loader: 'babel-loader',
           options: {
-            "presets": [ [ "es2015" ] ],
+            "presets": [ [ "env" ] ],
             "plugins": [ "transform-es2015-destructuring", "transform-runtime" ]
           }
         }],
@@ -41,6 +41,7 @@ var baseConfig = {
         options: {
           loaders: {
             'scss': 'vue-style-loader!css-loader!sass-loader',
+            'js': 'babel-loader?presets[]=env'
           }
         }
       }
