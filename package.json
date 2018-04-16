@@ -1,9 +1,9 @@
 {
   "name": "vue-calendar",
-  "version": "1.0.0",
-  "description": "Ultimate Vue.js Developers Course",
+  "version": "1.1.0",
+  "description": "Ultimate Vue.js Developers Course - Vue.js Calendar",
   "main": "server.js",
-  "author": "Anthony Gore <info@getjsdojo.com>",
+  "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/vuejsdevelopers/vuejs-calendar"
@@ -13,6 +13,9 @@
     "start": "nodemon ./server.js --ignore src/ -e js,html,css",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --config webpack.config.js --progress --hide-modules",
     "webpack-config-output": "rimraf tmp && mkdir tmp && cross-env NODE_ENV=production node ./scripts/webpack-config-output.js && cross-env NODE_ENV=development node ./scripts/webpack-config-output.js"
+  },
+  "engines": {
+    "node": ">=5.10"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -31,11 +34,13 @@
     "axios": "^0.15.3",
     "babel-core": "~6.26.0",
     "babel-loader": "~6.4.1",
+    "babel-plugin-es6-promise": "~1.1.1",
     "babel-plugin-transform-es2015-destructuring": "~6.23.0",
     "babel-plugin-transform-runtime": "~6.23.0",
     "babel-preset-env": "~1.6.1",
     "cross-env": "~3.0.0",
     "css-loader": "~0.25.0",
+    "es6-promise": "~4.2.4",
     "extract-text-webpack-plugin": "~2.1.2",
     "file-loader": "~0.9.0",
     "js-object-pretty-print": "~0.2.0",
