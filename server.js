@@ -37,7 +37,10 @@ app.get('/', (req, res) => {
 
 app.use(require('body-parser').json());
 app.post('/add_event', (req, res) => {
-  events.push(req.body);
+  events.push({
+    description: req.body.description,
+    date: moment(req.body.date)
+  });
   res.sendStatus(200);
 });
 
