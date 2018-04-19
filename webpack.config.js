@@ -17,8 +17,8 @@ var baseConfig = {
         use: [{
           loader: 'babel-loader',
           options: {
-            "presets": [ [ "es2015" ] ],
-            "plugins": [ "transform-es2015-destructuring", "transform-runtime" ]
+            "presets": [ [ "env" ] ],
+            "plugins": [ "transform-es2015-destructuring", "transform-runtime", "es6-promise" ]
           }
         }],
         exclude: /node_modules/
@@ -41,6 +41,7 @@ var baseConfig = {
         options: {
           loaders: {
             'scss': 'vue-style-loader!css-loader!sass-loader',
+            'js': 'babel-loader?presets[]=env'
           }
         }
       }
