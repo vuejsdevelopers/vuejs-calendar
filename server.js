@@ -54,7 +54,7 @@ const server = http.createServer(app);
 
 if (process.env.NODE_ENV === 'development') {
   const reload = require('reload');
-  const reloadServer = reload(server, app);
+  const reloadServer = reload(app);
   require('./webpack-dev-middleware').init(app);
   require('./webpack-server-compiler').init(function(bundle) {
     let needsReload = (renderer === undefined);
@@ -68,6 +68,6 @@ if (process.env.NODE_ENV === 'development') {
 server.listen(process.env.PORT, function () {
   console.log(`Example app listening on port ${process.env.PORT}!`);
   if (process.env.NODE_ENV === 'development') {
-    require("open")(`http://localhost:${process.env.PORT}`);
+    require("opn")(`http://localhost:${process.env.PORT}`);
   }
 });
