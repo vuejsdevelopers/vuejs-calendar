@@ -55,7 +55,7 @@ Your site will be available at *localhost:[PORT]* where `PORT` is whatever value
 
 #### Lecture branches
 
-Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/05` shows the state at the end of video 5.
+Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/06` shows the state at the end of video 6.
 
 If you want the initial state of the code, use the `master` branch.
 
