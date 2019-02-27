@@ -58,7 +58,7 @@ Your site will be available at *localhost:[PORT]* where `PORT` is whatever value
 
 [Support Vue.js Developers](https://www.patreon.com/anthonygore?utm-source=github-vjd&utm-medium=link&utm_campaign=sponsors) to get your logo here.
 
-#### Lecture branches
+## Lecture branches
 
 Each branch of of the repo shows the state of the code at the end of any particular video e.g. `video/06` shows the state at the end of video 6.
 
