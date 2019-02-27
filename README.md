@@ -52,6 +52,11 @@ See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](htt
 
 Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
 
+#### Sponsors
+
+<a href="https://vueschool.io" target="_blank"><img src="https://vueschool.io/img/logo/vueschool_logo_multicolor.svg" height="40" alt="Vue School"/></a>
+
+[Support Vue.js Developers](https://www.patreon.com/anthonygore?utm-source=github-vjd&utm-medium=link&utm_campaign=sponsors) to get your logo here.
 
 #### Lecture branches
 
@@ -91,9 +96,3 @@ If you're doing the *Vue.js Essentials - 3 Course Bundle* course on Udemy, you'l
 | 172 | video/53 |
 | 173 | video/54 |
 | 175 | video/56 |
-
-## Sponsors
-
-<a href="https://vueschool.io" target="_blank"><img src="https://vueschool.io/img/logo/vueschool_logo_multicolor_positive.svg" height="40" alt="Vue School"/></a>
-
-[Support Vue.js Developers](https://www.patreon.com/anthonygore?utm-source=github-vjd&utm-medium=link&utm_campaign=sponsors) to get your logo here.
