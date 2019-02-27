@@ -52,7 +52,7 @@ See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](htt
 
 Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
 
-#### Sponsors
+## Sponsors
 
 <a href="https://vueschool.io" target="_blank"><img src="https://vueschool.io/img/logo/vueschool_logo_multicolor.svg" height="40" alt="Vue School"/></a>
 
