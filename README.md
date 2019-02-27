@@ -94,6 +94,6 @@ If you're doing the *Vue.js Essentials - 3 Course Bundle* course on Udemy, you'l
 
 ## Sponsors
 
-<a href="https://vueschool.io" target="_blank"><img src="https://vueschool.io/img/logo/vueschool_logo_multicolor_negative.svg" height="40" alt="Vue School"/></a>
+<a href="https://vueschool.io" target="_blank"><img src="https://vueschool.io/img/logo/vueschool_logo_multicolor_positive.svg" height="40" alt="Vue School"/></a>
 
 [Support Vue.js Developers](https://www.patreon.com/anthonygore?utm-source=github-vjd&utm-medium=link&utm_campaign=sponsors) to get your logo here.
