@@ -94,4 +94,4 @@ If you're doing the *Vue.js Essentials - 3 Course Bundle* course on Udemy, you'l
 
 ## Sponsors
 
-![<img src="/img/logo/vueschool_logo_multicolor_negative.svg" height="40" alt="Vue School"/>](https://vueschool.io)
+<a href="https://vueschool.io" target="_blank"><img src="/img/logo/vueschool_logo_multicolor_negative.svg" height="40" alt="Vue School"/></a>
