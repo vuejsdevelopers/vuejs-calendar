@@ -31,7 +31,7 @@
     "vue-server-renderer": "~2.1.8"
   },
   "devDependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.21.1",
     "babel-core": "~6.26.0",
     "babel-loader": "~6.4.1",
     "babel-plugin-es6-promise": "~1.1.1",
