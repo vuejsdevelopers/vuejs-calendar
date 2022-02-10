@@ -43,7 +43,7 @@
     "extract-text-webpack-plugin": "~2.1.2",
     "file-loader": "~0.9.0",
     "js-object-pretty-print": "~0.2.0",
-    "node-sass": "~4.9.3",
+    "node-sass": "~7.0.0",
     "opn": "~5.4.0",
     "sass-loader": "~4.1.1",
     "style-loader": "~0.13.1",
