@@ -23,7 +23,7 @@
     "dotenv": "~2.0.0",
     "express": "~4.16.4",
     "moment": "~2.23.0",
-    "moment-timezone": "~0.5.11",
+    "moment-timezone": "~0.5.35",
     "nodemon": "~1.18.9",
     "reload": "~2.4.0",
     "request": "~2.88.0",
